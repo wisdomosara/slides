@@ -11,7 +11,7 @@ newImage.setAttribute('src',`pic${i}.jpg`);
 newImage.addEventListener('click', function() {
     displayedImage.setAttribute('src', newImage.getAttribute("src"))
 })
-newImage.addEventListener('touch', function() {
+newImage.addEventListener('mouseover', function() {
     displayedImage.setAttribute('src', newImage.getAttribute("src"))
 })
 thumbBar.appendChild(newImage);
